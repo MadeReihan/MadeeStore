@@ -23,7 +23,7 @@ export default function index(props:SideBarProps) {
                 <MenuItem Gambar={'menuitemOverview'} Title='Overview' Active={ActiveMenu === 'overview'} href='/member/'/>
                 <MenuItem Gambar={'menuitemTransacsion'} Title='Transacsion' Active={ActiveMenu === 'transaction'} href='/member/transaction'/>
                 <MenuItem Gambar={'menuitemCard'} Title='Card' href='/' />
-                <MenuItem Gambar={'menuitemMessages'} Title='Messages'  href='/'/>
+                <MenuItem Gambar={'menuitemmessages'} Title='Messages'  href='/'/>
                 <MenuItem Gambar={'menuitemRewards'} Title='Rewards'  href='/'/>
                 <MenuItem Gambar={'menuitemSetting'} Title='Setting' Active={ActiveMenu === 'setting'} href='/member/editProfile' />
                 <MenuItem Gambar={'menuitemLogout'} Title='Logout' onClick={onLogOut} />
