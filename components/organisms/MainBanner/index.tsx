@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/dist/client/image'
 import Illustration from './Illustration'
 
 export default function index() {

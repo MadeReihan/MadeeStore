@@ -1,15 +1,12 @@
-import Image from 'next/dist/client/image';
-import React, { useEffect } from 'react'
-// import SidebarFooter from '../../components/organisms/Sidebar/SidebarFooter'
-import Index from '../../components/organisms/Sidebar/index';
-import Input from '../../components/atoms/input'
 import Cookies from 'js-cookie';
-import { JWTPayloadTypes,UserTypes } from '../../services/data-types';
-import jwt_decode from 'jwt-decode'
-import {useState} from 'react';
-import { updateProfile } from '../../services/member';
+import jwt_decode from 'jwt-decode';
 import { useRouter } from 'next/router';
-import{toast} from 'react-toastify'
+import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
+import Input from '../../components/atoms/input';
+import Index from '../../components/organisms/Sidebar/index';
+import { JWTPayloadTypes, UserTypes } from '../../services/data-types';
+import { updateProfile } from '../../services/member';
 
 
 interface UserStateTypes {

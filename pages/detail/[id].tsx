@@ -1,11 +1,10 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
+import Footer from '../../components/organisms/Footer'
+import Navbar from '../../components/organisms/NavBar'
 import TopUpForm from '../../components/organisms/TopUpForm'
 import TopUpItem from '../../components/organisms/TopUpItem'
-import Navbar from '../../components/organisms/NavBar'
-import Footer from '../../components/organisms/Footer'
-import { useRouter } from 'next/router'
-import { getDetailVoucher, getFeaturedGame } from '../../services/player'
 import { GameItemTypes, NominalsTypes, PaymentTypes } from '../../services/data-types'
+import { getDetailVoucher, getFeaturedGame } from '../../services/player'
 
 interface DetailProps{
     dataItem:GameItemTypes

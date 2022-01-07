@@ -1,12 +1,10 @@
-import React from 'react'
-import Link from 'next/link';
-import ToggleMenu from './ToggleMenu';
-import {useEffect} from 'react';
 import Cookies from 'js-cookie';
 import jwt_decode from 'jwt-decode';
-import {useState} from 'react';
-import { JWTPayloadTypes, UserTypes } from '../../../services/data-types';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
+import { JWTPayloadTypes, UserTypes } from '../../../services/data-types';
+import ToggleMenu from './ToggleMenu';
 
 
 export default function Auth() {

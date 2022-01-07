@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { HistoryTransactionTypes } from '../../../services/data-types';
 import Row from './Row';
 

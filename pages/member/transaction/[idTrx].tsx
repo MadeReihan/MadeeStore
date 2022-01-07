@@ -1,7 +1,7 @@
+import jwt_decode from 'jwt-decode'
 import React from 'react'
 import TransactionContentDetail from '../../../components/organisms/TransactionContentDetail'
-import { HistoryTransactionTypes, JWTPayloadTypes,UserTypes } from '../../../services/data-types'
-import jwt_decode from 'jwt-decode'
+import { HistoryTransactionTypes, JWTPayloadTypes, UserTypes } from '../../../services/data-types'
 import { getTransactionDetail } from '../../../services/member'
 
 interface transactionDetailProps{

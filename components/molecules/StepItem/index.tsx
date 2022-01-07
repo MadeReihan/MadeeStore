@@ -1,5 +1,4 @@
-import Image from 'next/dist/client/image'
-import React from 'react'
+import React from 'react';
 export interface StepItemProps{
     icon: 'step1' | 'step2' | 'step3';
     judul:string;

@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react'
 import Image from 'next/dist/client/image';
+import React, { ReactNode } from 'react';
 import NumberFormat from 'react-number-format';
 
 interface CategoryProps{

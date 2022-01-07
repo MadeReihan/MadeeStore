@@ -1,8 +1,8 @@
-import React from 'react'
-import Sidebar from '../../components/organisms/Sidebar'
-import OverviewContent from '../../components/organisms/OverviewContent'
-import { JWTPayloadTypes,UserTypes } from '../../services/data-types'
 import jwt_decode from 'jwt-decode'
+import React from 'react'
+import OverviewContent from '../../components/organisms/OverviewContent'
+import Sidebar from '../../components/organisms/Sidebar'
+import { JWTPayloadTypes, UserTypes } from '../../services/data-types'
 export default function index() {
     return (
     <section className="overview overflow-auto">

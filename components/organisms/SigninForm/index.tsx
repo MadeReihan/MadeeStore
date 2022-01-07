@@ -1,11 +1,9 @@
-import React from 'react'
-import Link from 'next/link';
-import {useState} from 'react';
-import { setLogin } from '../../../services/auth';
-import { useRouter } from 'next/router';
-// import jwt_decode from 'jwt-decode'
 import Cookies from 'js-cookie';
-import {toast} from 'react-toastify'
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import { setLogin } from '../../../services/auth';
 
 
 export default function index() {

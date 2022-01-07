@@ -1,7 +1,7 @@
-import React from 'react'
 import Image from 'next/dist/client/image'
-import Menu from './Menu'
+import React from 'react'
 import Auth from './Auth'
+import Menu from './Menu'
 
 export default function index() {
     return (

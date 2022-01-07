@@ -1,10 +1,10 @@
-import React from 'react'
-import CheckoutItem from '../components/organisms/CheckoutItem'
-import CheckoutDetail from '../components/organisms/CheckoutDetail'
-import CheckoutConfirm from '../components/organisms/CheckoutConfirm'
-import Image from 'next/dist/client/image'
 import jwt_decode from 'jwt-decode'
-import { JWTPayloadTypes,UserTypes } from '../services/data-types'
+import Image from 'next/dist/client/image'
+import React from 'react'
+import CheckoutConfirm from '../components/organisms/CheckoutConfirm'
+import CheckoutDetail from '../components/organisms/CheckoutDetail'
+import CheckoutItem from '../components/organisms/CheckoutItem'
+import { JWTPayloadTypes, UserTypes } from '../services/data-types'
 
 interface CheckoutProps{
     user:UserTypes

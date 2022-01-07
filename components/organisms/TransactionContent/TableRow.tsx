@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'next/link';
 import classNames from 'classnames';
+import Link from 'next/link';
+import React from 'react';
 import NumberFormat from 'react-number-format';
 
 interface TabelRow{

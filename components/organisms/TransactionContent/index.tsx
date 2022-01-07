@@ -1,12 +1,10 @@
-import React, { useCallback } from 'react'
-import ButtonTab from './ButtonTab'
-import TableRow from './TableRow'
-import {useEffect} from 'react';
-import { getMemberTransaction } from '../../../services/member';
-import {toast} from 'react-toastify'
-import {useState} from 'react';
-import NumberFormat from 'react-number-format'
+import React, { useCallback, useEffect, useState } from 'react';
+import NumberFormat from 'react-number-format';
+import { toast } from 'react-toastify';
 import { HistoryTransactionTypes } from '../../../services/data-types';
+import { getMemberTransaction } from '../../../services/member';
+import ButtonTab from './ButtonTab';
+import TableRow from './TableRow';
 
 export default function TransactionContent() {
     const [total,setTotal] = useState(0)

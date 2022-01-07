@@ -1,9 +1,9 @@
-import React from 'react'
-import Profile from './Profile'
-import SidebarFooter from './SidebarFooter';
-import MenuItem from './MenuItem';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/router';
+import React from 'react';
+import MenuItem from './MenuItem';
+import Profile from './Profile';
+import SidebarFooter from './SidebarFooter';
 
 interface SideBarProps{
     ActiveMenu: 'overview'| 'transaction'| 'setting'

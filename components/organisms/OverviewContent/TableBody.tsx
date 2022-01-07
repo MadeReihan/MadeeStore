@@ -1,7 +1,6 @@
-import React from 'react'
-import Image from 'next/dist/client/image';
-import NumberFormat from 'react-number-format';
 import cx from 'classnames';
+import React from 'react';
+import NumberFormat from 'react-number-format';
 
 
 interface DeskripsiGame{

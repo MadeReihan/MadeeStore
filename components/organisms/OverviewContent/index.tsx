@@ -1,12 +1,9 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
+import { HistoryTransactionTypes, TopupCategoriesTypes } from '../../../services/data-types';
+import { getMemberOverview } from '../../../services/member';
 import Category from './category';
 import TableBody from './TableBody';
-// import Image from 'next/dist/client/image';
-import {useEffect} from 'react';
-import { getMemberOverview } from '../../../services/member';
-import{toast} from 'react-toastify'
-import {useState} from 'react'
-import { HistoryTransactionTypes,TopupCategoriesTypes } from '../../../services/data-types';
 
 export default function OverviewContent() {
     const IMG = process.env.NEXT_PUBLIC_IMG 

@@ -1,12 +1,10 @@
-import React from 'react'
-import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import { BanksTypes, NominalsTypes, PaymentTypes } from '../../../services/data-types';
 import NominalItem from './nominalItem';
 import PaymentItem from './paymentItem';
-import { BanksTypes, NominalsTypes, PaymentTypes } from '../../../services/data-types';
-import {useState} from 'react';
-import {toast } from 'react-toastify';
 
-import { useRouter } from 'next/router';
 
 
 interface TopUpForm{

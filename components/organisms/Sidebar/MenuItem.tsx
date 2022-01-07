@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/dist/client/image';
 import classNames from 'classnames';
+import Image from 'next/dist/client/image';
 import Link from 'next/link';
+import React from 'react';
 interface MenuItemMember{
     Gambar: String;
     Title:string;

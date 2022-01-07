@@ -1,8 +1,8 @@
+import jwt_decode from 'jwt-decode'
 import React from 'react'
 import SideBar from '../../../components/organisms/Sidebar'
 import TransactionContent from '../../../components/organisms/TransactionContent'
-import { JWTPayloadTypes,UserTypes } from '../../../services/data-types'
-import jwt_decode from 'jwt-decode'
+import { JWTPayloadTypes, UserTypes } from '../../../services/data-types'
 
 export default function index() {
     return (
